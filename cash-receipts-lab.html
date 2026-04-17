@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Receipts Control Lab</title>
+    <meta
+      name="description"
+      content="A faux-3D role-play study game for learning the cash receipts process and six internal control activities."
+    />
+    <link rel="stylesheet" href="./cash-receipts-lab.css" />
+  </head>
+  <body>
+    <main id="lab-shell" class="lab-shell">
+      <canvas
+        id="lab-canvas"
+        class="lab-canvas"
+        width="1280"
+        height="760"
+        aria-label="Cash Receipts Control Lab game canvas"
+      ></canvas>
+      <p class="assistive-copy">
+        Use Arrow keys or WASD to move, E to interact, Enter to confirm choices,
+        Space to pause, R to restart the current role, and F to toggle
+        fullscreen.
+      </p>
+      <div id="sr-status" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    </main>
+    <script defer src="./cash-receipts-lab.js"></script>
+  </body>
+</html>
